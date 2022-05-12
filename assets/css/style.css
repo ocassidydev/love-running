@@ -280,6 +280,10 @@ footer {
         height: 150px;
         padding: 0;
     }
+
+    #photos{
+        column-count: 3;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -313,5 +317,11 @@ footer {
     .left-about-heading p, .right-about-heading p{
         text-align: center;
         padding: 0 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #photos {
+        column-count: 2;
     }
 }
